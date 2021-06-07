@@ -1,0 +1,41 @@
+.button, .tags
+  font-weight: bold
+  font-size: 1rem
+  text-decoration: none
+
+.button
+  background: $mainYellow
+  color: $mainblue
+  padding: 12px 20px
+  border-radius: 8px
+  border: 0 none
+  transition: all 0.2s ease-out
+  &:hover
+    background: $paleYellow
+    box-shadow: $dropshadow
+    color: $darkYellow
+    padding: 13px 21px
+  &:active
+    background: $darkYellow
+    box-shadow: $innershadow
+    color: $white
+    padding: 11px 19px
+
+.tags
+  border: 2px solid $mainYellow
+  color: $darkYellow
+  border-radius: 100px
+  padding: 8px 12px
+  transition: all 0.2s ease-out
+  &:hover
+    background: $paleYellow
+    color: $darkYellow
+    border-color: $paleYellow
+    box-shadow: $dropshadow
+    padding: 9px 13px
+  &:active
+    background: $mainYellow
+    color: white
+    padding: 7px 11px
+    box-shadow: $innershadow
+    border-color: $mainYellow

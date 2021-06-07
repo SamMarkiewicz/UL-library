@@ -1,0 +1,55 @@
+.container
+  width: $container
+  margin: 0 auto
+  padding: 3rem 0
+
+h1, h2
+  font-weight: 800
+  color: $title
+
+h1
+  font-size: 3rem
+  margin-bottom: 1rem
+
+h2
+  font-size: 2rem
+  margin-bottom: 1rem
+
+h3
+  font-size: 1.5rem
+  margin-bottom: 1rem
+  font-weight: 600
+  color: lighten($title, 15)
+
+a
+  display: inline-block
+
+p
+  margin-bottom: 1rem
+  line-height: 1.5rem
+  color: $text
+
+hr
+  margin-top: 1px solid $border
+
+header
+  background: dodgerblue
+  h1, p
+    color: white
+
+.highlighter-rouge
+  background: darken(DarkSlateGray, 9)
+  padding: 2rem
+  margin: 0 0 2rem
+  line-height: 2rem
+  border-radius: 4px
+  .c
+    color: #999
+  .nt
+    color: LightSkyBlue
+  .o
+    color: white
+  .err
+    color: orange
+    & + .nt
+      color: orange
